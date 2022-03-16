@@ -5,40 +5,51 @@ function App() {
   return (
 		<div className='App'>
 			<h1>hi i'm samy 👋</h1>
-			{/* <img className='profilephoto' src="./images/profilephoto.png" alt="" /> */}
-			<div className='header-links'>
-				<h2 className='linkedin'>
-					<span>🤝🏼</span>
-					<span>
-						<a href='https://www.linkedin.com/in/samyfrey/'>
-							connect on Linkedin
-						</a>
-					</span>
-				</h2>
-				<h2 className='recent-projects'>
-					<span>🔦</span>
-					<span>
-						<a href='#projects-section'>recent projects</a>
-					</span>
-				</h2>
-				<h2 className='email'>
-					<span>➡️ </span>
-					<span>
-						<a href=''>github</a>
-					</span>
-				</h2>
-				<div className='divider'></div>
+			<p>react. mongoDB. express. node.JS </p>
+			<div className='header-block'>
+				<img className='profilephoto' src='./images/samy3.png' alt='' />
+				<div className='header-links'>
+					<h2 className='linkedin'>
+						<span>🤝🏼</span>
+						<span>
+							<a
+								href='https://www.linkedin.com/in/samyfrey/'
+								target='_blank'
+								rel='noopener noreferrer'>
+								connect on Linkedin
+							</a>
+						</span>
+					</h2>
+					<h2 className='recent-projects'>
+						<span>🔦</span>
+						<span>
+							<a href='#projects-section'>recent projects</a>
+						</span>
+					</h2>
+					<h2 className='github'>
+						<span>➡️ </span>
+						<span>
+							<a
+								href='https://github.com/samyfrey'
+								target='_blank'
+								rel='noopener noreferrer'>
+								github
+							</a>
+						</span>
+					</h2>
+				</div>
 			</div>
 			<h1>bio 📘</h1>
+			<p>French-American software developer based in New York City 🗽</p>
 			<p>
-				I am Samy Frey, a French-American software developer based in New York👨‍💻
-				City. Strong of 10 years of experience in investment & corporate
-				banking, I have grown a passion for solving problems and getting complex
-				projects across the finish line which I love applying to software
-				engineering. Feel free to reach out if you have any questions on my
-				projects!
+				Strong of 10 years of experience in investment & corporate banking, I
+				have grown a passion for solving problems and getting complex projects
+				across the finish line which I love applying to software engineering.
 			</p>
-			🌎
+			<p>
+				🌎 Fun fact: I have lived in 5 cities in 4 different continents and
+				speak 3 languages 😄
+			</p>
 			<div className='divider'></div>
 			<h1>philosophy 🧗‍♂️</h1>
 			<p>
@@ -51,8 +62,12 @@ function App() {
 			</p>
 			<div className='divider'></div>
 			<h1>recent projects 🛠️</h1>
-			<a id='projects-section'/>
-        {/* <img className='project-thumbnails' src='./images/frame-teablog.png' alt=''/> */}
+			<a id='projects-section' />
+			<img
+				className='project-thumbnails'
+				src='./images/frame-teablog.png'
+				alt=''
+			/>
 			<div className='divider'></div>
 			<h1>reach out 💬</h1>
 		</div>
