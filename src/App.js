@@ -1,5 +1,6 @@
-
 import './App.css';
+import { FaLinkedinIn } from 'react-icons/fa'
+import { Projects } from './components/projects/Projects'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
 							<a href='#projects-section'>recent projects</a>
 						</span>
 					</h2>
+
 					<h2 className='github'>
 						<span>➡️ </span>
 						<span>
@@ -51,7 +53,7 @@ function App() {
 				speak 3 languages 😄
 			</p>
 			<div className='divider'></div>
-			<h1>philosophy 🧗‍♂️</h1>
+			{/* <h1>philosophy 🧗‍♂️</h1>
 			<p>
 				Trilingual software developer with an extensive background in investment
 				banking in multiple countries. I am experienced in MERN full-stack web
@@ -59,17 +61,34 @@ function App() {
 				with REST-based API services. I like to find creative solutions to solve
 				client problems, with a thoughtful and organized approach. I am also
 				particularly passionate about moving projects from conception to launch.
-			</p>
+			</p> */}
+
+			<p></p>
 			<div className='divider'></div>
-			<h1>recent projects 🛠️</h1>
 			<a id='projects-section' />
-			<img
-				className='project-thumbnails'
-				src='./images/frame-teablog.png'
-				alt=''
-			/>
+			<h1>recent projects 🛠️</h1>
+			<Projects />
+			<div>
+				<img
+					className='project-thumbnails'
+					src='./images/frame-teablog.png'
+					alt=''
+				/>
+				<p className='project-text'>
+					Full Stack MERN project. Commodo odio aenean sed adipiscing diam donec
+					adipiscing. Orci a scelerisque purus semper eget duis at tellus.
+					Consectetur lorem donec massa sapien faucibus et molestie ac. Sed sed
+					risus pretium quam vulputate dignissim suspendisse.
+				</p>
+				<h2>
+					<a href='#projects-section'>learn more</a>
+				</h2>
+			</div>
 			<div className='divider'></div>
 			<h1>reach out 💬</h1>
+			<a href='#'>
+				<FaLinkedinIn />
+			</a>
 		</div>
 	)
 }

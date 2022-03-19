@@ -5,7 +5,7 @@
 body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   /* NEED TO CHECK FALLBACK FONT SINCE HELVETICA IS NOT SUPORTED ON WINDOWS */
-  font-size: 16px;
+  font-size: 18px;
   margin: auto;
   padding: 3%;
   max-width: 700px;
@@ -24,6 +24,7 @@ a:visited {
 a:hover{
 background-color: #b7e4c7
 }
+
 
 .App {
   text-align: left;
@@ -54,3 +55,8 @@ object-fit: cover;
   height: 300px;
 
 }
+
+/* .project-text{
+  width: 500px;
+
+} */
