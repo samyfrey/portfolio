@@ -1,10 +1,10 @@
 import React from 'react'
-
 export const Header = () => {
   return (
     <>
+			<div className='header'>
 			<h1>hi i'm samy 👋</h1>
-			<p>MERN full-stack. software engineering graduate @General Assembly </p>
+			<p>MERN web dev. software engineering graduate @General Assembly </p>
 			<div className='header-block'>
 				<img className='profilephoto' src='./images/samy.png' alt='' />
 				<div className='header-links'>
@@ -39,6 +39,7 @@ export const Header = () => {
 					</h2>
 				</div>
 			</div>
+	</div>
     </>
   )
 }
