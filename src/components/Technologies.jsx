@@ -16,6 +16,7 @@ export const Technologies = () => {
           <a href='/'>express</a>
           <a href='/'>mongoDB</a>
           <a href='/'>mongoose</a>
+          <a href='/'>axios</a>
           <a href='/'>socket.io</a>
           <a href='/'>PostgreSQL </a>
           <a href='/'>python</a>
