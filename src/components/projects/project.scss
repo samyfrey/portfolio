@@ -1,4 +1,4 @@
-.p{
+.project-screen{
 border: 2px solid rgb(243, 242, 242);
 border-radius: 10px 10px 0px 0px;
 overflow: hidden;
@@ -7,7 +7,7 @@ margin: 20px 10px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 
 // not sure about height
-height: 20vh;
+height: 300px;
 
 
 
@@ -28,4 +28,26 @@ height: 20vh;
   border-radius: 50%;
   margin: 3px;
   background-color: white;
+}
+
+.p-img {
+  width: 100%;
+  transition: all 10s ease;
+}
+
+.project-screen:hover .p-img {
+  transform: translateY(-100%);
+}
+
+
+.project-legend{
+  h3 {
+    // background-color: #d8e2dc
+    text-transform: uppercase;
+
+
+  }
+  a {
+    margin-right: 10px;
+  }
 }
