@@ -6,7 +6,7 @@ export const Header = () => {
 			<h1>hi i'm samy 👋</h1>
 			<p>MERN web dev. software engineering graduate @General Assembly </p>
 			<div className='header-block'>
-				<img className='profilephoto' src='./images/samy.png' alt='' />
+				<img className='profilephoto' src='./images/samyphoto.png' alt='' />
 				<div className='header-links'>
 					<h2 className='linkedin'>
 						<span>🤝🏼</span>

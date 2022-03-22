@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedinIn } from 'react-icons/fa'
+// import { FaLinkedinIn } from 'react-icons/fa'
 
 export const ReachOut = () => {
   return (
@@ -8,7 +8,7 @@ export const ReachOut = () => {
 
       <h1>reach out 💬</h1>
         <a href='#'>
-          <FaLinkedinIn />
+          {/* <FaLinkedinIn /> */}
         </a>
 
     </div>
