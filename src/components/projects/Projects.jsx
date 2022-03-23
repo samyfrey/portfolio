@@ -2,7 +2,6 @@ import React from 'react'
 import "./projects.scss"
 import { Project } from './Project'
 import { projects } from '../../content' 
-
 export const Projects = () => {
   return (
     <div className='divider'>

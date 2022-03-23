@@ -1,4 +1,5 @@
-import React from 'react'
+import samyphoto from '../../images/samy3.png'
+import './header.scss'
 export const Header = () => {
   return (
     <>
@@ -6,7 +7,7 @@ export const Header = () => {
 			<h1>hi i'm samy 👋</h1>
 			<p>MERN web dev. software engineering graduate @General Assembly </p>
 			<div className='header-block'>
-				<img className='profilephoto' src='./images/samyphoto.png' alt='' />
+				<img className='profilephoto' src={samyphoto} alt='' />
 				<div className='header-links'>
 					<h2 className='linkedin'>
 						<span>🤝🏼</span>
@@ -34,6 +35,16 @@ export const Header = () => {
 								target='_blank'
 								rel='noopener noreferrer'>
 								github
+							</a>
+						</span>
+					</h2>
+					<h2 className='reach-out'>
+						<span>💬</span>
+						<span>
+							<a
+								href=''
+								>
+								reach out
 							</a>
 						</span>
 					</h2>
