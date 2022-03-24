@@ -10,7 +10,7 @@ export const Header = () => {
 				<img className='profilephoto' src={samyphoto} alt='' />
 				<div className='header-links'>
 					<h2 className='linkedin'>
-						<span>🤝🏼</span>
+						<span>🤝🏼 </span>
 						<span>
 							<a
 								href='https://www.linkedin.com/in/samyfrey'
@@ -21,7 +21,7 @@ export const Header = () => {
 						</span>
 					</h2>
 					<h2 className='recent-projects'>
-						<span>🔦</span>
+						<span>🔦 </span>
 						<span>
 							<a href='#projects-section'>recent projects</a>
 						</span>
@@ -39,10 +39,10 @@ export const Header = () => {
 						</span>
 					</h2>
 					<h2 className='reach-out'>
-						<span>💬</span>
+						<span>💬 </span>
 						<span>
 							<a
-								href=''
+								href='#reach-out-section'
 								>
 								reach out
 							</a>
