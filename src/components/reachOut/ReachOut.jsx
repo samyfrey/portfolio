@@ -3,15 +3,21 @@ import React from 'react'
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from "react";
 import './reachOut.scss'
+import { TextInput } from './TextInput';
 
 export const ReachOut = () => {
 const form = useRef();
   const [done, setDone] = useState(false)
   // const theme = useContext(ThemeContext);
   // const darkMode = theme.state.darkMode;
-  
+const [name, setName] = useState('')
+const [subject, setSubject] = useState('')
+const [email, setEmail] = useState('')
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    setDone(false)
+
     emailjs.sendForm(
         "service_i83oaqo",
         "template_ij939mb",
@@ -27,6 +33,11 @@ const form = useRef();
           console.log(error.text);
         }
       );
+      e.target.reset()
+      setName('');
+      setEmail('');
+      setSubject('');
+
   }
 
   return (
@@ -37,12 +48,12 @@ const form = useRef();
       <div className="form-container">
  
         <form ref={form} onSubmit={handleSubmit}>
-              <input type="text" placeholder="Name" name="user_name" />
-              <input type="text" placeholder="Subject" name="user_subject" />
-              <input type="text" placeholder="Your Email" name="user_email" />
-              <textarea rows="5" placeholder="type your message here" name="message" />
-              {done ? 'sent. thank you!' : <button data-progress-text='uploading'>Submit</button>}
-          </form>
+          <TextInput label="Name" name="user_name" value={name} setValue={setName}/>
+          <TextInput label="Subject"name="subject" value={subject} setValue={setSubject} />
+          <TextInput label="Email"name="user_email" value={email} setValue={setEmail}/>
+          <textarea rows="5" placeholder="type your message here" name="message" />
+          {done ? 'sent. thank you!' : <button data-progress-text='uploading'>Submit</button>}
+        </form>
         {/* <a href='#'>
           <FaLinkedinIn />
         </a> */}

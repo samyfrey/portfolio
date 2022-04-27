@@ -24,6 +24,7 @@ export const Technologies = () => {
         </h4>
         <h4>
           <a href='/'>MVC</a>
+          <a href='/'>data manipulation</a>
           <a href='/'>agile</a>
 
         </h4>

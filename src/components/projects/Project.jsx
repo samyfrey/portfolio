@@ -1,7 +1,7 @@
 import React from 'react'
 import "./project.scss"
 
-export const Project = ({ img, link, title, text, tech, github, demo }) => {
+export const Project = ({ img, link, title, description, text, tech, github, demo }) => {
   return (
     <>
     <div className='project-screen'>
@@ -16,6 +16,7 @@ export const Project = ({ img, link, title, text, tech, github, demo }) => {
     </div>
     <div className='project-legend'>
       <h3>{title}</h3>
+      <p>{description}</p>
       <p>{text}</p>
       <p>{tech}</p>
       <h4>

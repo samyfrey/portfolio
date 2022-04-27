@@ -10,7 +10,7 @@ export const Projects = () => {
         <p className='projects-intro'>here's a selection of my most recent projects. <span><a href='#reach-out-section'>reach out</a></span>if you have any questions!</p>
         <div className='projects-list'>
             {projects.map(item => (
-              <Project key={item.id} img={item.img} link={item.link} title={item.title} text={item.text} tech={item.tech} github={item.linkGithub} demo={item.linkDemo} />    
+              <Project key={item.id} img={item.img} link={item.link} title={item.title} description={item.description} text={item.text} tech={item.tech} github={item.linkGithub} demo={item.linkDemo} />    
 
             ))}
       
