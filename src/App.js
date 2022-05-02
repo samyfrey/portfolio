@@ -15,6 +15,7 @@ function App() {
 			<Technologies />
 			<Projects />
 			<ReachOut />
+
 			
 		</div>
 	)

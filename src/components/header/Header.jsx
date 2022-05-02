@@ -1,5 +1,7 @@
 import samyphoto from '../../images/samy3.png'
 import './header.scss'
+import { Github } from 'react-bootstrap-icons';
+
 export const Header = () => {
   return (
     <>
@@ -28,7 +30,7 @@ export const Header = () => {
 					</h2>
 
 					<h2 className='github'>
-						<span>➡️ </span>
+						<span><Github /> </span>
 						<span>
 							<a
 								href='https://github.com/samyfrey'

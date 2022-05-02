@@ -20,24 +20,37 @@ height: 300px;
   align-items: center;
   position: sticky;
   z-index: 2;
+  // 	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	// -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	// box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 }
 
 .p-circle {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   margin: 3px;
-  background-color: white;
+  // background-color: white;
 }
+.dot-1{
+  background-color:  #FC6058;
+}
+.dot-2{
+  background-color:  #FEC02F;
+}
+.dot-3{
+  background-color:  #2ACA3E;
+}
+
 
 .p-img {
   width: 100%;
   transition: all 10s ease;
 }
 
-.project-screen:hover .p-img {
-  transform: translateY(-100%);
-}
+// .project-screen:hover .p-img {
+//   transform: translateY(-100%);
+// }
 
 
 .project-legend{

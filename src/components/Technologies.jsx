@@ -4,7 +4,7 @@ export const Technologies = () => {
   return (
       <div className='divider'>
         <h1>technologies & skills  🛠 </h1>
-        <p>click on any of the links to see examples of how i apply those skills</p>
+
         <h4>
           <a href='/'>react</a>
           <a href='/'>javascript ES6+</a>
@@ -24,7 +24,7 @@ export const Technologies = () => {
         </h4>
         <h4>
           <a href='/'>MVC</a>
-          <a href='/'>data manipulation</a>
+          <a href='#reach-out-section'>data manipulation</a>
           <a href='/'>agile</a>
 
         </h4>
