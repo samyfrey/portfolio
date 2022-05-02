@@ -6,6 +6,8 @@ import { Github } from 'react-bootstrap-icons';
 export const Project = ({ img, link, title, description, text, tech, github, demo }) => {
   return (
     <>
+    <div className='project-legend'>
+      <h3>{title}</h3>
     <div className='project-screen'>
       <div className='p-browser'>
         <div className='p-circle dot-1'></div>
@@ -16,8 +18,6 @@ export const Project = ({ img, link, title, description, text, tech, github, dem
         <img src={img} alt='' className='p-img' />
       </a>
     </div>
-    <div className='project-legend'>
-      <h3>{title}</h3>
       <p>{description}</p>
       <p>{text}</p>
       <p>⚙️ {tech}</p>
