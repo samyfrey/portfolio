@@ -17,6 +17,7 @@ export const Technologies = () => {
           <a href='/'>mongoDB</a>
           <a href='/'>mongoose</a>
           <a href='/'>axios</a>
+          <a href='/'>passport</a>
           <a href='/'>socket.io</a>
           <a href='/'>PostgreSQL </a>
           <a href='/'>python</a>
@@ -24,8 +25,11 @@ export const Technologies = () => {
         </h4>
         <h4>
           <a href='/'>MVC</a>
-          <a href='#reach-out-section'>data manipulation</a>
+          <a href='/'>data manipulation</a>
           <a href='/'>agile</a>
+          <a href='/'>github</a>
+          <a href='/'>scrum</a>
+          <a href='/'>jira</a>
 
         </h4>
 
