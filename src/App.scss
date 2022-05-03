@@ -14,8 +14,9 @@ body {
   max-width: 700px;
   line-height: 1.5;
   @media only screen and (max-width: 700px) {
-    font-size: 3vw;
-
+    font-size: 4vw;
+    margin: auto;
+    flex-direction: column;
   }
   
 }
@@ -60,8 +61,8 @@ object-fit: cover;
 
 
 
-.project-thumbnails{
-  width: 500px;
-  height: 300px;
+// .project-thumbnails{
+//   width: 500px;
+//   height: 300px;
 
-}
+// }
