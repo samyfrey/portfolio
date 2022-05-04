@@ -12,7 +12,7 @@ export const Bio = () => {
 			</p>
 			<p>i also have a strong eye for user interface and interactive designs. </p>
 			<p>
-				🌎 fun fact: i have lived in 5 cities in 4 different continents and
+				🌎 fun fact: i have lived in 5 cities on 4 different continents and
 				speak 3 different languages 😄
 			</p>
     
