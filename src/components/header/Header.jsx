@@ -22,6 +22,17 @@ export const Header = () => {
 							</a>
 						</span>
 					</h2>
+					<h2 className='resume'>
+						<span>📄 </span>
+						<span>
+							<a
+								href='https://drive.google.com/file/d/1VfPHE26vZ_7RuTSL0moU_BS8vphFPKD-/view?usp=sharing'
+								target='_blank'
+								rel='noopener noreferrer'>
+								see my resume
+							</a>
+						</span>
+					</h2>
 					<h2 className='recent-projects'>
 						<span>🔦 </span>
 						<span>

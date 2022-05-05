@@ -1,29 +1,28 @@
 import React from 'react'
-
+import './Technologies/technologies.scss'
 export const Technologies = () => {
   return (
       <div className='divider'>
-        <h1>technologies & skills  🛠 </h1>
+        <h1>technologies & skills  🛠</h1>
 
-        <h4>
+        <div className='tech-list'>
           <a href='/'>react</a>
           <a href='/'>javascript ES6+</a>
           <a href='/'>material UI</a>
           <a href='/'>jQuery</a>
           <a href='/'>bootstrap</a>
-        </h4>
-        <h4>
+        </div>
+        <div className='tech-list'>
           <a href='/'>express</a>
           <a href='/'>mongoDB</a>
           <a href='/'>mongoose</a>
           <a href='/'>axios</a>
           <a href='/'>passport</a>
           <a href='/'>socket.io</a>
-          <a href='/'>PostgreSQL </a>
           <a href='/'>python</a>
           <a href='/'>django</a>
-        </h4>
-        <h4>
+        </div>
+        <div className='tech-list'>
           <a href='/'>MVC</a>
           <a href='/'>data manipulation</a>
           <a href='/'>agile</a>
@@ -31,7 +30,7 @@ export const Technologies = () => {
           <a href='/'>scrum</a>
           <a href='/'>jira</a>
 
-        </h4>
+        </div>
 
 
       </div>
