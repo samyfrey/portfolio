@@ -22,7 +22,7 @@ export const Header = () => {
 							</a>
 						</span>
 					</h2>
-					<h2 className='resume'>
+					{/* <h2 className='resume'>
 						<span>📄 </span>
 						<span>
 							<a
@@ -32,7 +32,7 @@ export const Header = () => {
 								see my resume
 							</a>
 						</span>
-					</h2>
+					</h2> */}
 					<h2 className='recent-projects'>
 						<span>🔦 </span>
 						<span>
