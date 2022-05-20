@@ -4,7 +4,7 @@ export const Bio = () => {
   return (
     <div className='divider'>
     <h1>bio 📘</h1>
-			<p>french-american full-stack web developer based in energetic, New York City 🗽</p>
+			<p>full-stack software developer based in New York City 🗽</p>
 			<p>
 				through 10 years of experience in investment & corporate banking, i
 				have grown a passion for solving problems and getting complex projects
@@ -12,7 +12,7 @@ export const Bio = () => {
 			</p>
 			<p>i also have a strong eye for user interface and interactive designs. </p>
 			<p>
-				🌎 fun fact: i have lived in 5 cities on 4 different continents and
+				🌎 fun fact: i am originally from France, i have lived in 5 cities on 4 different continents and
 				speak 3 different languages 😄
 			</p>
     
